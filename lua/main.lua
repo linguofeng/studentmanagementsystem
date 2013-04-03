@@ -9,7 +9,7 @@ local function menu(t)
             if type(func) == 'function' then
                 return func()
             else
-                error("case "..tostring(x).." not a function")
+                error("case " .. tostring(x) .. " not a function")
             end
         end
     end
